@@ -1,0 +1,426 @@
+/* section */
+section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+section div {
+	margin: auto;
+}
+/* box shadow 1 */
+.box-shadow-1 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 1px 6px rgb(57 73 76 / 35%);
+	border-radius: 5px;
+}
+.box-shadow-1:hover {
+	box-shadow: 0 1px 25px rgb(57 73 76 / 20%);
+}
+
+/* box shadow 2 */
+.box-shadow-2 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 1px 6px rgb(57 73 76 / 35%);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-2:hover {
+	box-shadow: 0 1px 25px rgb(57 73 76 / 20%);
+}
+
+/* box shadow 3 */
+.box-shadow-3 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 1px 6px rgb(57 73 76 / 35%);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-3:hover {
+	width: 210px;
+	height: 260px;
+	box-shadow: 0 1px 25px rgb(57 73 76 / 20%);
+}
+
+/* box shadow 4 */
+.box-shadow-4 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 1px 6px rgb(57 73 76 / 35%);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-4:hover {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+}
+
+/* box shadow 5 */
+.box-shadow-5 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-5:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 6 */
+.box-shadow-6 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 0 28px rgba(0, 0, 0, 0.25), 0 0 10px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-6:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 7 */
+.box-shadow-7 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 0px 38px rgba(0, 0, 0, 0.3), 0 0px 12px rgba(0, 0, 0, 0.22);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-7:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 8 */
+.box-shadow-8 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 20px -20px rgb(243, 201, 201);
+	background: rgb(233, 231, 231);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.box-shadow-8:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 9 */
+.box-shadow-9 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 20px 20px gray;
+	border-radius: 5px;
+	transition: 0.5s;
+	background: rgb(233, 231, 231);
+}
+.box-shadow-9:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 10 */
+.box-shadow-10 {
+	width: 200px;
+	height: 250px;
+	box-shadow: -20px 20px gray;
+	border-radius: 5px;
+	transition: 0.5s;
+	background: rgb(233, 231, 231);
+}
+.box-shadow-10:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 11 */
+.box-shadow-11 {
+	width: 200px;
+	height: 250px;
+	box-shadow: -20px -20px gray;
+	border-radius: 5px;
+	transition: 0.5s;
+	background: rgb(233, 231, 231);
+}
+.box-shadow-11:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 12 */
+.box-shadow-12 {
+	width: 200px;
+	height: 250px;
+	box-shadow: 0 8px 6px -6px rgb(34, 33, 33);
+	border-radius: 5px;
+	transition: 0.5s;
+	background: rgb(233, 231, 231);
+}
+.box-shadow-12:hover {
+	width: 210px;
+	height: 260px;
+}
+
+/* box shadow 13 */
+.box-shadow-13 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	box-shadow: 0 10px 6px -6px #777;
+	transition: 0.5s;
+}
+
+.box-shadow-13:hover{
+	width: 75%;
+	height: 210px;
+}
+
+/* box shadow 14 */
+.box-shadow-14 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box-shadow-14:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-14:before,
+.box-shadow-14:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 15px 10px #777;
+}
+
+.box-shadow-14:before {
+	transform: rotate(-3deg);
+	left: 10px;
+	right: auto;
+}
+
+.box-shadow-14:after {
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
+}
+
+/* box shadow 15 */
+.box-shadow-15 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box-shadow-15:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-15:before {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 15px 10px #777;
+	transform: rotate(-3deg);
+}
+
+/* box shadow 16 */
+.box-shadow-16 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box-shadow-16:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-16:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	right: 10px;
+	left: auto;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 15px 10px #777;
+	transform: rotate(3deg);
+}
+
+/* box shadow 17 */
+.box-shadow-17 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box-shadow-17:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-17:after,
+.box-shadow-17:before {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 25px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 35px 20px #777;
+}
+
+.box-shadow-17:before {
+	transform: rotate(-8deg);
+	left: 10px;
+	right: auto;
+}
+
+.box-shadow-17:after {
+	transform: rotate(8deg);
+	right: 10px;
+	left: auto;
+}
+
+/* box shadow 18 */
+.box-shadow-18 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	transition: 0.5s;
+	margin: 40px auto;
+	position: relative;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+}
+
+.box-shadow-18:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-18:after,
+.box-shadow-18:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 0 20px rgb(0 0 0 / 80%);
+	top: 50%;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	border-radius: 100px / 10px;
+}
+
+.box-shadow-18:after {
+	right: 10px;
+	left: auto;
+	transform: skew(8deg) rotate(3deg);
+}
+
+/* box shadow 19 */
+.box-shadow-19 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	margin: 40px auto;
+	transition: 0.5s;
+	position: relative;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+}
+
+.box-shadow-19:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-19:after,
+.box-shadow-19:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 0 20px rgb(0 0 0 / 80%);
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	border-radius: 100px / 10px;
+}
+
+.box-shadow-19:after {
+	right: 10px;
+	left: auto;
+	transform: skew(8deg) rotate(3deg);
+}
+
+/* box shadow 20 */
+.box-shadow-20 {
+	width: 70%;
+	height: 200px;
+	background: rgb(235, 231, 231);
+	transition:0.5s;
+	margin: 40px auto;
+	position: relative;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
+}
+
+.box-shadow-20:hover{
+	width: 75%;
+	height: 210px;
+}
+
+.box-shadow-20:after,
+.box-shadow-20:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 0 20px rgb(0 0 0 / 80%);
+	top: 10px;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	border-radius: 100px / 10px;
+}
+
+.box-shadow-20:after {
+	right: 10px;
+	left: auto;
+	transform: skew(8deg) rotate(3deg);
+}
