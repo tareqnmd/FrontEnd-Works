@@ -6,3 +6,54 @@ section {
 section div {
 	margin: auto;
 }
+
+.backdrop-filter {
+	background-image: url(../assets/images/sample2.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.content {
+	border-radius: 5px;
+	color: rgb(13, 253, 0);
+	font-family: sans-serif;
+	font-weight: bold;
+	max-width: 80%;
+	padding: 4rem 1rem;
+}
+.content-1 {
+	backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.content-2 {
+	backdrop-filter: grayscale(1);
+}
+.content-3 {
+	backdrop-filter: brightness(2);
+}
+.content-4 {
+	backdrop-filter: contrast(0.6);
+}
+.content-5 {
+	backdrop-filter: invert(0.7);
+}
+.content-6 {
+	backdrop-filter: sepia(0.4);
+}
+.content-7 {
+	backdrop-filter: saturate(1.8);
+}
+.content-8 {
+	backdrop-filter: hue-rotate(120deg);
+}
+
+@media only screen and (max-width: 360px) {
+	body {
+		min-width: 360px;
+	}
+}
