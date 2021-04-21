@@ -99,12 +99,32 @@
                         </div>
                     </section>
                 </div>
+                <div class="col-md-12">
+                    <section>
+                        <div class="transition-16">
+                            <button id="btn" class="btn btn-primary">check</button>
+                            <div id='height-abs-2' class="height-abs-2"></div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </main>
 
     <footer></footer>
-
+    <script>
+        var btn=document.getElementById('btn');
+        var ha2=document.getElementById('height-abs-2');
+        btn.addEventListener('click',()=>{
+            
+            if(ha2.style.height==='500px'){
+                ha2.style.height='0px';
+            }
+            else{
+                ha2.style.height='500px';
+            }
+        })
+    </script>
 </body>
 
 </html>
