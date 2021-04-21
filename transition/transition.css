@@ -224,3 +224,52 @@ section div {
 	position: relative;
 	z-index: 1;
 }
+
+.transition-13{
+	height: 200px;
+	background-color:rgb(221, 208, 208);
+	width: 10px;
+	transition:0.5s;
+}
+
+.transition-13:hover{
+	width: 100%;
+}
+
+.transition-14{
+	height: 10px;
+	background-color:rgb(221, 208, 208);
+	width: 100%;
+	transition:0.5s;
+}
+
+.transition-14:hover{
+	width: 100%;
+	height: 100px;
+}
+
+.transition-15{
+	height: 100%;
+	background-color:rgb(221, 208, 208);
+	width: 100%;
+	transition:0.5s;
+	padding:20px;
+}
+
+.height-abs{
+	top: 40px;
+	background-color:rgb(187, 14, 14);
+	width: 100%;
+	height: 0px;
+	transition:0.5s;
+}
+
+.transition-15:hover .height-abs{
+	height: 500px;
+}
+
+@media (max-width: 400px){
+	body{
+		min-width:400px;
+	}
+}
