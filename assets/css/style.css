@@ -1,0 +1,47 @@
+.mainmenu {
+	margin-bottom: 90px;
+}
+
+.menubar {
+	background-color: #ffffff;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.menubar a {
+	color: rgba(41, 41, 41, 0.68);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.menubar a:hover {
+	color: rgba(73, 144, 231, 0.918);
+}
+
+.menubar h4 {
+	margin: 8px 0px;
+}
+.content-details {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.content-details h5 {
+	color: rgb(96, 96, 96);
+	text-align: justify;
+}
+.topic-btn a {
+	text-decoration: none;
+}
+.topic-btn button {
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 8px 20px;
+	transition: 0.3s;
+	margin: 5px 6px;
+}
+.topic-btn button:hover {
+	transform: scale(1.1);
+}

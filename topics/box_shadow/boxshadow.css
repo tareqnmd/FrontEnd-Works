@@ -6,6 +6,32 @@ section {
 section div {
 	margin: auto;
 }
+
+.mainmenu {
+	margin-bottom: 90px;
+}
+
+.menubar {
+	background-color: #ffffff;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.menubar a {
+	color: rgba(41, 41, 41, 0.68);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.menubar a:hover {
+	color: rgba(73, 144, 231, 0.918);
+}
+
+.menubar h4 {
+	margin: 8px 0px;
+}
+
 /* box shadow 1 */
 .box-shadow-1 {
 	width: 200px;
