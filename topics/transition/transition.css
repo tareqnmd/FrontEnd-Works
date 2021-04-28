@@ -200,8 +200,8 @@ section div {
 	color: #fff;
 	position: relative;
 	overflow: hidden;
-    width: 200px;
-    height:50px;
+	width: 200px;
+	height: 50px;
 }
 
 .transition-12.color-shift::before {
@@ -211,7 +211,7 @@ section div {
 	height: 400%;
 	width: 120%;
 	left: 100%;
-	bottom:100%;
+	bottom: 100%;
 	transition: left 0.2s linear 0.2s, bottom 0.2s linear 0.2s;
 	transform: rotate(45deg);
 	opacity: 0.4;
@@ -250,67 +250,67 @@ section div {
 	z-index: 1;
 }
 
-.transition-13{
+.transition-13 {
 	height: 200px;
-	background-color:rgb(221, 208, 208);
+	background-color: rgb(221, 208, 208);
 	width: 10px;
-	transition:0.5s;
+	transition: 0.5s;
 }
 
-.transition-13:hover{
+.transition-13:hover {
 	width: 100%;
 }
 
-.transition-14{
+.transition-14 {
 	height: 10px;
-	background-color:rgb(221, 208, 208);
+	background-color: rgb(221, 208, 208);
 	width: 100%;
-	transition:0.5s;
+	transition: 0.5s;
 }
 
-.transition-14:hover{
+.transition-14:hover {
 	width: 100%;
 	height: 100px;
 }
 
-.transition-15{
+.transition-15 {
 	height: 100%;
-	background-color:rgb(221, 208, 208);
+	background-color: rgb(221, 208, 208);
 	width: 100%;
-	transition:0.5s;
-	padding:20px;
+	transition: 0.5s;
+	padding: 20px;
 }
 
-.height-abs{
+.height-abs {
 	top: 40px;
-	background-color:rgb(187, 14, 14);
+	background-color: rgb(187, 14, 14);
 	width: 100%;
 	height: 0px;
-	transition:0.5s;
+	transition: 0.5s;
 }
 
-.transition-15:hover .height-abs{
+.transition-15:hover .height-abs {
 	height: 500px;
 }
 
-.transition-16{
+.transition-16 {
 	height: 100%;
-	background-color:rgb(221, 208, 208);
+	background-color: rgb(221, 208, 208);
 	width: 100%;
-	transition:0.5s;
-	padding:20px;
+	transition: 0.5s;
+	padding: 20px;
 }
 
-.height-abs-2{
+.height-abs-2 {
 	top: 40px;
-	background-color:rgb(187, 14, 14);
+	background-color: rgb(187, 14, 14);
 	width: 100%;
 	height: 0px;
-	transition:0.5s;
+	transition: 0.5s;
 }
 
-@media (max-width: 400px){
-	body{
-		min-width:400px;
+@media (max-width: 400px) {
+	body {
+		min-width: 400px;
 	}
 }

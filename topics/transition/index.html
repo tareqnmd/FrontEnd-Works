@@ -6,10 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Transition</title>
 		<link rel="icon" href="../../assets/favicon.jpg" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-		/>
+		<link rel="stylesheet" href="../../assets/css/bootstrap-4.5.2.min.css" />
 		<link rel="stylesheet" href="transition.css" />
 	</head>
 
@@ -122,16 +119,9 @@
 		</main>
 
 		<footer></footer>
-		<script>
-			var btn = document.getElementById("btn");
-			var ha2 = document.getElementById("height-abs-2");
-			btn.addEventListener("click", () => {
-				if (ha2.style.height === "500px") {
-					ha2.style.height = "0px";
-				} else {
-					ha2.style.height = "500px";
-				}
-			});
-		</script>
+		<script src="../../assets/js/jquery-3.5.1.min.js"></script>
+		<script src="../../assets/js/bootstrap-4.5.2.min.js"></script>
+		<script src="../../assets/js/popper.min.js"></script>
+		<script src="transition.js"></script>
 	</body>
 </html>

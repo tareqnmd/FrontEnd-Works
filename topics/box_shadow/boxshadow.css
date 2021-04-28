@@ -202,7 +202,7 @@ section div {
 	transition: 0.5s;
 }
 
-.box-shadow-13:hover{
+.box-shadow-13:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -217,7 +217,7 @@ section div {
 	transition: 0.5s;
 }
 
-.box-shadow-14:hover{
+.box-shadow-14:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -257,7 +257,7 @@ section div {
 	transition: 0.5s;
 }
 
-.box-shadow-15:hover{
+.box-shadow-15:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -286,7 +286,7 @@ section div {
 	transition: 0.5s;
 }
 
-.box-shadow-16:hover{
+.box-shadow-16:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -316,7 +316,7 @@ section div {
 	transition: 0.5s;
 }
 
-.box-shadow-17:hover{
+.box-shadow-17:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -357,7 +357,7 @@ section div {
 	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
 }
 
-.box-shadow-18:hover{
+.box-shadow-18:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -392,7 +392,7 @@ section div {
 	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
 }
 
-.box-shadow-19:hover{
+.box-shadow-19:hover {
 	width: 75%;
 	height: 210px;
 }
@@ -421,13 +421,13 @@ section div {
 	width: 70%;
 	height: 200px;
 	background: rgb(235, 231, 231);
-	transition:0.5s;
+	transition: 0.5s;
 	margin: 40px auto;
 	position: relative;
 	box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
 }
 
-.box-shadow-20:hover{
+.box-shadow-20:hover {
 	width: 75%;
 	height: 210px;
 }

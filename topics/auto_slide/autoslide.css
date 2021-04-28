@@ -1,0 +1,86 @@
+/* section */
+section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+section div {
+	margin: auto;
+}
+@media only screen and (max-width: 360px) {
+	body {
+		min-width: 360px;
+	}
+}
+
+.mainmenu {
+	margin-bottom: 90px;
+}
+
+.menubar {
+	background-color: #ffffff;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.menubar a {
+	color: rgba(41, 41, 41, 0.68);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.menubar a:hover {
+	color: rgba(73, 144, 231, 0.918);
+}
+
+.menubar h4 {
+	margin: 8px 0px;
+}
+
+.auto_slide {
+	align-items: center;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		-webkit-transform: translateX(0);
+	}
+
+	100% {
+		-webkit-transform: translateX(calc(-250px * 7));
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+.slider {
+	height: 100px;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.slider .slide-track {
+	-webkit-animation: scroll 40s linear infinite;
+	animation: scroll 40s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+}
+
+.slider .slide {
+	height: 100px;
+	width: 250px;
+}
