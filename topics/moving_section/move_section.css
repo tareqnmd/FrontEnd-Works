@@ -36,3 +36,40 @@ section div {
 .menubar h4 {
 	margin: 8px 0px;
 }
+
+/* sections */
+.main-bg {
+	overflow: hidden;
+	border: 10px solidrgb(255, 255, 255)d;
+}
+.move-sec-1 {
+	height: 400px;
+	position: relative;
+}
+.move-bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: url(../../assets/images/sample1.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -10;
+	filter: blur(2px);
+	overflow: hidden;
+}
+.move-sec-2 {
+	height: 250px;
+	background-color: #dfdfdf;
+}
+.move-sec-2 * {
+	width: 75%;
+	margin: auto;
+	padding: 10px;
+}
+.move-sec-3 {
+	height: 250px;
+	background-color: #dfdfdf;
+}
