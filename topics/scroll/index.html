@@ -28,7 +28,14 @@
 			<!-- Scroll examples -->
 			<h3 class="text-center mt-4 mb-4">Scroll Examples</h3>
 			<div class="container">
-				<div class="large-height"></div>
+				<div class="menus">
+					<a href="#top">Top</a>
+					<a href="#middle">Middle</a>
+					<a href="#end">End</a>
+				</div>
+				<div id="top"></div>
+				<div id="middle"></div>
+				<div id="end"></div>
 			</div>
 		</main>
 
@@ -37,4 +44,21 @@
 	<script src="../../assets/js/jquery-3.5.1.min.js"></script>
 	<script src="../../assets/js/bootstrap-4.5.2.min.js"></script>
 	<script src="../../assets/js/popper.min.js"></script>
+	<script src="../../assets/js/anchor.scroll.js"></script>
+	<script src="../../assets/js/ease.scroll.js"></script>
+	<script>
+		$("html").easeScroll();
+		// $("html").easeScroll({
+		// 	frameRate: 60,
+		// 	animationTime: 1000,
+		// 	stepSize: 120,
+		// 	pulseAlgorithm: !0,
+		// 	pulseScale: 8,
+		// 	pulseNormalize: 1,
+		// 	accelerationDelta: 20,
+		// 	accelerationMax: 1,
+		// 	keyboardSupport: !0,
+		// 	arrowScroll: 50,
+		// });
+	</script>
 </html>
