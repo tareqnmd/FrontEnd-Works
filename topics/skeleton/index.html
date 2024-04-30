@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			.skeleton-area {
+				background: #fff;
+				border-radius: 4px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+				margin-bottom: 24px;
+				.skeleton-img {
+					height: 300px;
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+					background: #eee;
+					background: linear-gradient(
+						110deg,
+						#ececec 8%,
+						#f5f5f5 18%,
+						#ececec 33%
+					);
+					border-radius: 5px;
+					background-size: 200% 100%;
+					animation: 1.5s shine linear infinite;
+				}
+			}
+
+			@keyframes shine {
+				to {
+					background-position-x: -200%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="skeleton-area">
+			<div class="skeleton-img"></div>
+		</div>
+	</body>
+</html>
